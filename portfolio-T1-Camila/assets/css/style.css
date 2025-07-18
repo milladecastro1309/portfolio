@@ -12,6 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(135deg, #8c52ff, #5ce1ec);
   color: #fff;
+  text-align: justify;
 }
 
 header {
@@ -48,6 +49,7 @@ nav a {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 section {
@@ -55,6 +57,12 @@ section {
   border-radius: 8px;
   padding: 40px;
   margin-bottom: 40px;
+   
+}
+
+section i {
+   list-style: none;
+   color: #3533cd;
 }
 
 h2 {
@@ -70,7 +78,7 @@ table {
 th, td {
   border: 1px solid #ddd;
   padding: 10px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1);
   color: #000;
 }
 
@@ -99,6 +107,7 @@ button {
 .icone{
   color: #3536cd;
   width: 10px 10px;
+  font-size: 39px;
 }
 
 #divbutton{
